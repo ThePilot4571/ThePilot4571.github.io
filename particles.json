@@ -63,7 +63,7 @@
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": false,
@@ -77,20 +77,20 @@
       },
       "modes": {
         "grab": {
-          "distance": 800,
+          "distance": 200,
           "line_linked": {
             "opacity": 1
           }
         },
         "bubble": {
-          "distance": 800,
+          "distance": 200,
           "size": 80,
           "duration": 2,
           "opacity": 0.8,
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
+          "distance": 1,
           "duration": 0.4
         },
         "push": {
