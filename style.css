@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap');
+
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 10px;
     user-select: none;
@@ -27,15 +29,16 @@ body {
 }
 
 h1 {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 5rem;
     font-weight: 300;
     letter-spacing: 8px;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
+
 h2 {
-    color:gray;
+    color: gray;
     font-size: 4rem;
     font-weight: 200;
 }
@@ -62,7 +65,7 @@ h2 {
     padding: 8rem 5rem;
     font-size: 2rem;
     text-decoration: none;
-    color:black;
+    color: black;
     transition: background 0.5s;
 }
 
@@ -71,7 +74,7 @@ h2 {
     padding: 5rem 5rem;
     font-size: 2rem;
     text-decoration: none;
-    color:black;
+    color: black;
     transition: background 0.5s;
     border-radius: 30%;
 
@@ -88,4 +91,10 @@ h2 {
     background-color: cover;
     position: relative;
     top: 0;
+}
+
+#introduction {
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+    line-height: auto;
 }
