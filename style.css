@@ -47,8 +47,8 @@ h2 {
 }
 
 
-.introtxt {
-    font-size: 2rem;
+#greeting {
+    font-size: 2.3rem;
     color: rgb(255, 255, 255);
     line-height: auto;
 }
@@ -88,42 +88,4 @@ h2 {
     background-color: cover;
     position: relative;
     top: 0;
-}
-
-.kahoot-img {
-    display:inline;
-    margin-left: 10rem;
-}
-
-.kahoot-txt {
-    display: inline;
-    vertical-align: middle;
-    margin-left: 3rem;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    line-height: auto;
-}
-
-.kahoot {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.something {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.farming {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
 }
