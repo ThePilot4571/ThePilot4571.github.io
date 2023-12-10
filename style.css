@@ -12,11 +12,17 @@ html {
     user-select: none;
 }
 
-body {
+.main {
     background-color: rgb(29, 29, 29);
     background-position: 0 0px;
     font-family: 'Lato', sans-serif;
     overflow: hidden;
+}
+
+.avatar {
+    background-color: #212124;
+    background-position: 0 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -100,11 +106,29 @@ h2 {
 }
 
 .avtitle {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.85);
     font-size: 5rem;
     font-weight: 300;
-    letter-spacing: 8px;
+    letter-spacing: 0.2rem;
     margin: auto;
     width: 50%;
     text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.profilepic {
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
