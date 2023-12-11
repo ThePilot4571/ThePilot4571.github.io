@@ -12,14 +12,7 @@ html {
     user-select: none;
 }
 
-.main {
-    background-color: rgb(29, 29, 29);
-    background-position: 0 0px;
-    font-family: 'Lato', sans-serif;
-    overflow: hidden;
-}
-
-.avatar {
+body {
     background-color: #212124;
     background-position: 0 0px;
     font-family: 'Lato', sans-serif;
