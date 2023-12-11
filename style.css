@@ -25,8 +25,6 @@ body {
     margin-top: 1rem;
     text-align: center;
     position: relative;
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
 }
 
 .title {
@@ -71,10 +69,6 @@ h2 {
     transition: background 0.5s;
     border-radius: 30%;
 
-}
-
-.container::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
 }
 
 #particles-js {
