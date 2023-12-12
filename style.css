@@ -60,7 +60,7 @@ h2 {
 }
 
 
-.social {
+.icons {
     display: inline-block;
     padding: 5rem 5rem;
     font-size: 2rem;
@@ -85,15 +85,6 @@ h2 {
     line-height: auto;
 }
 
-.avtitle {
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 5rem;
-    font-weight: 300;
-    letter-spacing: 0.2rem;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
 
 p {
     color: rgb(255, 255, 255);
@@ -138,7 +129,11 @@ p {
     color: black;
 }
 
-.navbar a.active {
+.navbar a.current {
     background-color: #005fed;
     color: white;
+}
+
+.entry {
+    display:inline-block;
 }
