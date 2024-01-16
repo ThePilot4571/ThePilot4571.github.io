@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap');
 
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,12 +13,10 @@ html {
 
 body {
     background-color: #25252a;
-    background-position: 0 0px;
     font-family: 'Lato', sans-serif;
 }
 
 .container {
-    position: relative;
     max-width: auto;
     margin: 0 auto;
     padding: 0 0rem;
@@ -29,8 +26,8 @@ body {
 }
 
 .title {
-    color: rgb(255, 255, 255);
-    font-size:6rem;
+    color: #fff;
+    font-size: 6rem;
     font-weight: 300;
     letter-spacing: 0.4rem;
     margin-bottom: 3rem;
@@ -49,29 +46,6 @@ h2 {
     z-index: 2;
 }
 
-
-#greeting {
-    font-size: 2.3rem;
-    color: rgb(255, 255, 255);
-    line-height: auto;
-}
-
-.btn:hover {
-    background: white;
-}
-
-
-.icons {
-    display: inline-block;
-    padding: 5rem 5rem;
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-    transition: background 0.5s;
-    border-radius: 30%;
-
-}
-
 #particles-js {
     width: 100%;
     height: 99.5%;
@@ -80,15 +54,8 @@ h2 {
     top: 0;
 }
 
-#introduction {
-    font-size: 2.3rem;
-    color: rgb(255, 255, 255);
-    line-height: auto;
-}
-
-
-p {
-    color: rgb(255, 255, 255);
+p, .bodyp {
+    color: #fff;
     font-size: 2.6rem;
     font-weight: 100;
     letter-spacing: 0.2rem;
@@ -98,15 +65,7 @@ p {
     margin-top: 3rem;
 }
 
-
 .bodyp {
-    color: rgb(255, 255, 255);
-    font-size: 2.6rem;
-    font-weight: 100;
-    letter-spacing: 0.2rem;
-    margin: auto;
-    width: 50%;
-    text-align: center;
     margin-top: 5%;
     margin-bottom: 7rem;
 }
@@ -117,7 +76,7 @@ p {
 }
 
 .navbar a {
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -126,13 +85,13 @@ p {
 }
 
 .navbar a:hover {
-    background-color: #ffffff;
-    color: black;
+    background-color: #fff;
+    color: #000;
 }
 
 .navbar a.current {
     background-color: #005fed;
-    color: white;
+    color: #fff;
 }
 
 .bg {
@@ -145,4 +104,18 @@ p {
     z-index: -1;
     height: 16rem;
     filter: brightness(25%);
+}
+
+.icons {
+    display: inline-block;
+    padding: 5rem 5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.5s;
+    border-radius: 30%;
+}
+
+.btn:hover {
+    background: #fff;
 }
